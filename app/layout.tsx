@@ -6,8 +6,8 @@ import StarCanvas from '@/ui/starBackground/StarBackground'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Global Future Edution Summit',
-  description: 'Global future education summit bangalore 2024',
+  title: 'Voice Assistant',
+  description: '',
 }
 
 export default function RootLayout({
