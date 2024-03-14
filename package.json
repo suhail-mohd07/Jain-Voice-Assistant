@@ -9,10 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/preset-typescript": "^7.23.3",
+    "@babel/runtime": "^7.24.0",
     "@heroicons/react": "^2.1.1",
     "@mui/joy": "^5.0.0-beta.22",
     "@mui/styled-engine-sc": "^6.0.0-alpha.12",
     "aos": "^2.3.4",
+    "firebase": "^10.8.1",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
@@ -21,7 +24,7 @@
   },
   "devDependencies": {
     "@react-three/drei": "^9.93.0",
-    "@react-three/fiber": "^8.15.13",
+    "@react-three/fiber": "^8.15.19",
     "@types/aos": "^3.0.7",
     "@types/node": "^20",
     "@types/react": "^18",
@@ -35,5 +38,9 @@
     "tailwindcss": "^3.4.1",
     "three": "^0.160.0",
     "typescript": "^5"
+  },
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es6"
   }
 }
